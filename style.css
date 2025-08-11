@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: orange;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.item {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+button {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkorange;
+}
